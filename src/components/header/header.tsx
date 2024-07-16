@@ -63,7 +63,7 @@ function Header() {
             "
             passHref
           >
-            🔮 Galaxy
+            Medicaas
           </Link>
         </div>
 

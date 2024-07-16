@@ -10,11 +10,44 @@ export type SidebarItem = {
 
 export const SIDEBAR: Array<SidebarItem> = [
   {
-    title: 'Getting Started',
+    title: 'Pengantar',
     children: [
       {
-        title: 'Overview',
+        title: 'Tentang',
         slug: '/docs',
+      },
+      {
+        title: 'Pengembangan',
+        slug: '/docs/pengantar/pengembang',
+      },
+      {
+        title: 'Mulai Gunakan',
+        slug: '/docs/pengantar/mulaigunakan',
+      },
+    ],
+  },
+  {
+    title: 'Panduan',
+    children: [
+      {
+        title: 'Login pengguna',
+        slug: '/docs/panduan/loginpengguna',
+      },
+      {
+        title: 'Mastering',
+        slug: '/docs/panduan/mastering',
+      },
+      {
+        title: 'Pendaftaran Pasien',
+        slug: '/docs/panduan/pendaftaran',
+      },
+      {
+        title: 'Penerimaan',
+        slug: '/docs/panduan/penerimaan',
+      },
+      {
+        title: 'Pelayanan',
+        slug: '/docs/panduan/pelayanan',
       },
     ],
   },

@@ -46,7 +46,7 @@ function TableOfContents(props: TableOfContentsProps) {
         
           "
         >
-          On this page
+          Di halaman ini
         </h2>
         <nav aria-label="Table of contents" className="overflow-x-hidden">
           <ul>
